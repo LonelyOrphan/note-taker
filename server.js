@@ -41,4 +41,5 @@ app.post("/api/notes", (req, res) => {
     if (err) throw err;
     console.log("Saved!");
   });
+  location.reload();
 });
