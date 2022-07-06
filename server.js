@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
+const uniqid = require("uniqid");
 const noteData = require("./db/db.json");
 const app = express();
 const port = 3000;
